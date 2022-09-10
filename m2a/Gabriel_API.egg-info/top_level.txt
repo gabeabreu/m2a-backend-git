@@ -1,0 +1,16 @@
+diagnostico
+empresa
+endereco
+faturamento
+fundamento
+pergunta
+questionario
+resposta
+seed
+segmento
+setor
+tipo_diagnostico
+tipo_industria
+uf
+usuario
+valor_arrecadacao
