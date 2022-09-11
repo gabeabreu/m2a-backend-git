@@ -1,6 +1,5 @@
 #!/bin/bash
 
-pip install -e .
 python3 manage.py migrate
 python3 manage.py seed
 python3 manage.py collectstatic
