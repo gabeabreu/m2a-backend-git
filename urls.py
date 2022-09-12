@@ -34,6 +34,7 @@ urlpatterns = [
     path('', include('resposta.urls')),
     path('', include('segmento.urls')),
     path('', include('setor.urls')),
+    path('', include('usuario.urls')),
     path('', include('tipo_industria.urls')),
     path('', include('tipo_diagnostico.urls')),
     path('', include('valor_arrecadacao.urls')),
