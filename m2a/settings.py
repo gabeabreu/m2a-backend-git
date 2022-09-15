@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-683g5%dinae(%i_w_ybufdhh@-^llx&=r%s__5chc#i80!n+co
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wall-srv', 'm2a.ceubos.com.br', '10.11.0.2', '0.0.0.0']
+ALLOWED_HOSTS = ['m2aconsultoria.pythonanywhere.com',
+                 'wall-srv', 'm2a.ceubos.com.br', '10.11.0.2', '0.0.0.0']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -90,6 +91,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'm2a.urls'
